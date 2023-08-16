@@ -1,37 +1,43 @@
 import React from 'react'
-import './Team.css'
-import team1 from './Teamimage/Group 183.png'
-import team2 from './Teamimage/Group 184.png'
-import team3 from './Teamimage/Group 187.png'
-import team4 from './Teamimage/Group 185.png'
-import team5 from './Teamimage/Group 186.png'
-
-
-
+import './Team.css';
 
 function Team() {
   return (
-    <div className='mainteam'>
-<div className='workers'>
-<div className='allteam'>
-<h1 className='TEAMH1'>TEAM .</h1>
-<p className='teamp'>Following our tremendous ambitions and plowing our wave through the vast universe of the NFT, we wanted to establish a 
-practical,sustainable, and strong membership network, so that our community can embrace all of the benefits 
-of being a member of our exclusive club. Meet the crew behind Meta Moose</p>
-<div className='workersdetail'>
-<img className='gigi' src={team1} alt='pic'/>
-<img className='moose' src={team2} alt='pic'/>
-<img className='hotmoose' src={team3} alt='pic'/>
-<img className='jakeson' src={team4} alt='pic'/>
-<img className='nana' src={team5} alt='pic'/>
+    <div className='team'>
+        <div className='team-div'>
+            <div className='text'>
+            <h1>TEAM.</h1>    
+            <p>Following our tremendous ambitions and plowing our wave through the vast universe of the NFT, we wanted to establish a practical, sustainable, and strong membership network, so that our community can embrace all of the benefits of being a member of our exclusive club. Meet the crew behind Meta Moose!</p>
+            </div>
+        <div className='team-flex'>
+            <div className='team-card'>
+            <img src={require('./Teamimg/Ellipse18.png')} alt="card" className="pic-cards"/>
+            <h3>GIGI</h3>
+            <p>Project Manager & Coordinator</p>
+            </div>
+            <div className='team-card'>
+            <img src={require('./Teamimg/Ellipse19.png')} alt="card" className="pic-cards"/>
+            <h3>DR MOOSE</h3>
+            <p>Project Manager & Marketing Lead</p>
+            </div>
+            <div className='team-card'>
+            <img src={require('./Teamimg/Ellipse20.png')} alt="card" className="pic-cards"/>
+            <h3>JAKSON</h3>
+            <p>Blockchain Advisor & Business Developer</p>
+            </div>
+            <div className='team-card'>
+            <img src={require('./Teamimg/Ellipse21.png')} alt="card" className="pic-cards"/>
+            <h3>HOT MOOSE</h3>
+            <p>Lead Developer & Tech</p>
+            </div>
+            <div className='team-card'>
+            <img src={require('./Teamimg/Ellipse22.png')} alt="card" className="pic-cards"/>
+            <h3>NANA FAMOUS</h3>
+            <p>Art Director & Creator of Moose</p>
+            </div>
+        </div>
 
-
-
-
-
-</div>
-</div>
-</div>
+        </div>
     </div>
   )
 }

@@ -1,45 +1,109 @@
-.mainteam {
-    height: 100vh;
+.team{
+    height: auto;
     background-color: black;
     display: flex;
     justify-content: center;
-    align-items: center;
-}
-
-.workers {
-    border: 1px solid #C69141;
+    align-items: center;}
+.team-div{
+    border: 2px solid #7A5D30;
     height: 70vh;
-    margin-bottom: 20px;
-    width: 80%;
+    margin-top: 10%;
+    margin-bottom: 50px ;
+    width: 90%;
+   
     text-align: center;
 }
-.TEAMH1{
+.text{
+    height: 20vh;
+    width: 100%;
+   
     color: #fff;
-    font-family: Papyrus, fantasy;
-    margin-top: 29px;
 }
-.teamp{
-    color: #FFFFFF;
+.text{
+    font-family: cursive;
+}
+.text p{
+    padding-left: 3%;
+    padding-right: 3%;
     font-size: 15px;
-    margin-top: 20px;
+    font-weight: 400;
 
 }
-.gigi{
-    width: 200px;
-    margin-top: 33px;
-    margin-left: -2%;
+.team-flex{
+    height: auto;
+    width: 94%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* flex-wrap: wrap; */
+    padding-left: 3%;
+    padding-right: 3%;
 }
-.moose{
-    width: 200px;
-/* margin-left: 4%; */
+.team-card{
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    /* border: 2px solid yellow; */
+    height: 290px;
+    color: #fff;
 }
-.hotmoose{
-    width: 200px;
+.pic-cards{
+    width: 190px;
+    height: 180px;
+    flex: 1 1 30%; /* Grow, shrink, basis */
+  margin: 5px;
 }
-.jakeson{
-    width: 215px;
-}
-.nana{
-    width: 200px;
+.team-card h3{
+    margin-top: -8%;
+    font-family: cursive;
 
+}
+.team-card p{
+    margin-top: -6%;
+    margin: 8px;
+}
+@media (max-width:700px) {
+    .team-flex{
+        height: auto;
+        width: 94%;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        padding-left: 3%;
+        padding-right: 3%;
+        /* margin-top: 31%; */
+        /* border: 2px solid chartreuse; */
+    }
+    .team-div{
+        border: 2px solid #7A5D30;
+        height: auto;
+        width: 80%;
+        display: flex;
+        flex-wrap: wrap;
+        text-align: center;
+    }
+    .team-card h3{
+        margin-top: -8%;
+        /* font-family: cursive; */
+    font-size: 12px;
+    }
+    .team-card{
+        width: 80%;
+    }
+
+    .team-card p{
+        margin-top:3%;
+
+    }
+    .text{
+        height: auto;
+    }
+    .pic-cards{
+        width:200px;
+        height: 140px;
+        flex: 1 1 30%; /* Grow, shrink, basis */
+      margin: 3px;
+    }
 }

@@ -52,7 +52,7 @@ import './Narrative.css';
 function Narrative() {
   return (
     <div className='navigate'>
-        <h1 className='h8'>OUR NAVIGATE.</h1>
+        <h1>OUR NAVIGATE.</h1>
         <div className='navigate-flex'>
             <div className='navigate-text'>
              <div className='text3'>   <p>Our adventure begins deep within the snowy forest. A herd of moose was peacefully living across the immense pond. They had no idea that the world was in grave danger and that it was time to move on, but not all of them were lucky. A bright star fell from the sky, bearing a vital message. Only ten of them will be given a second chance, 7 male and 3 female. It was time to move on to a new world, a new universe, the Metaverse.
