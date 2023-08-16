@@ -4,6 +4,7 @@ import './Text.css'
 
 function Text() {
   return (
+    
     <div className='main'>
 <div className='texts'>
 <h1 className='H1'>WELCOME TO META MOOSE WORLD </h1>

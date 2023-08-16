@@ -1,0 +1,53 @@
+.storymain{
+    width: 100%;
+    height: auto;
+    display: flex;
+    background-color: black;
+}
+.story1{
+    width: 673px;
+    height: 548px;
+    margin-top: 80px;
+    background-color: #4C371F;
+    /* border: 1px solid red; */
+}
+.story2{
+    width: 673px;
+    height: 548px;
+    margin-top: 80px;
+    /* border: 1px solid red; */
+}
+.horses{
+    width: 669px;
+    height: 548px;
+}
+.storyh1{
+    color: #FFFFFF;
+    font-family: cursive;
+    margin-left: 10%;
+    margin-top: 13%;
+}
+.storylist{
+    color: #FFFFFF;
+margin-left: 10%;
+margin-top: 4%;
+/* gap: 100px; */
+}
+.li2{
+    margin-top: 10px;
+}
+.li3{
+    margin-top: 10px;
+}
+.li4{
+    margin-top: 10px;
+}
+.li5{
+    margin-top: 10px;
+}
+.li6{
+    margin-top: 10px;
+}
+.li7{
+    margin-top: 10px;
+}

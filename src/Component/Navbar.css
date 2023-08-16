@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 .nav {
     display: flex;
     /* width: 100%; */
@@ -50,6 +51,7 @@ li {
     margin-top: -15px;
 }
 @media(max-width:768px){
+   
     .ul{
         display: none;
     }
@@ -58,5 +60,10 @@ li {
     }
     .board{
         display: none;
+    }
+    .imgg{
+        width: 140px;
+        height: 100px;
+       
     }
 }

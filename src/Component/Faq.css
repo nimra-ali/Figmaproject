@@ -1,0 +1,124 @@
+.faqmain{
+    /* width: 100%; */
+    height: auto;
+    background-color: black;
+}
+/* body{
+    background-color: black;
+} */
+.faqh1{
+    color: #ffff;
+    text-align: center;
+    font-family: Papyrus, fantasy ;
+}
+/* .para1{
+    /* color:#F0B750; */
+/* width: 200px; */
+    /* border-bottom:1px solid #282625; */
+
+/* } */
+.firstq{
+    color:  #F0B750;
+    margin-top: 37px;
+    margin-left: 9%;
+    font-size: 14px;
+}
+.answer{
+    color: #ffff;
+    margin-left: 9%;
+    margin-top: 13px;
+    /* font-weight: 200; */
+  font-size: 16px;
+}
+.icon{
+    color: #ffff;
+margin-left: 93%;
+margin-top: -20px;
+}
+.border{
+    width: 87%;
+    margin-top: 2%;
+    margin-left: 9%;
+    border-bottom:1px solid #282625;
+
+}
+.secondq{
+    color: #F0B750;
+    /* margin-left: 9%; */
+    display: flex;
+    margin-top: 13px;
+}
+.icon2{
+    /* margin-left: 70.4%;     */
+    margin-top: -1px;
+    color: #ffff;
+    /* border: 1px solid blue; */
+    font-size: 14px;
+}
+.border2{
+    width: 96.4%;
+    margin-top: 38px;
+    /* margin-left: -94.6%; */
+    border-bottom:1px solid #282625;
+
+}
+.icon3{
+    color: #ffff;
+     margin-left: 93.1%;
+     font-size: 13px;
+     margin-top: -20px;
+}
+.secondq1{
+    margin-top: 14px;
+    color: #F0B750;
+     margin-left: 9%;
+}
+.border3{
+    width: 96.1%;
+margin-top: 22px;
+    border-bottom:1px solid #282625;
+}
+.secondq2{
+    margin-top: 14px;
+
+    color: #F0B750;
+    margin-left: 9%;
+
+}
+.icon4{
+    color: #ffff;
+     margin-left: 93.1%;
+     font-size: 13px;
+     margin-top: -20px;
+}
+.border4{
+    width: 96.4%;
+    /* margin-left: -0%; */
+margin-top: 22px;
+    border-bottom:1px solid #282625;
+}
+.iconn {
+    margin-left: 12px;
+    margin-top: 110px;
+}
+.iconn2 {
+    margin-left: 2px;
+    margin-top: 111px;
+
+    /* margin-top: 29px; */
+}
+.ic{
+    /* border: 1px solid brown; */
+    height: 180px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    /* text-align: center; */
+}
+.lop{
+    color: #ffff;
+    margin-top: 10%;
+    margin-left: -8%;
+    text-align: center;
+}

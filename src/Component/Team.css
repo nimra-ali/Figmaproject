@@ -1,0 +1,45 @@
+.mainteam {
+    height: 100vh;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.workers {
+    border: 1px solid #C69141;
+    height: 70vh;
+    margin-bottom: 20px;
+    width: 80%;
+    text-align: center;
+}
+.TEAMH1{
+    color: #fff;
+    font-family: Papyrus, fantasy;
+    margin-top: 29px;
+}
+.teamp{
+    color: #FFFFFF;
+    font-size: 15px;
+    margin-top: 20px;
+
+}
+.gigi{
+    width: 200px;
+    margin-top: 33px;
+    margin-left: -2%;
+}
+.moose{
+    width: 200px;
+/* margin-left: 4%; */
+}
+.hotmoose{
+    width: 200px;
+}
+.jakeson{
+    width: 215px;
+}
+.nana{
+    width: 200px;
+
+}
