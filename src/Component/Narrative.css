@@ -85,10 +85,11 @@ margin-left: -20%;
 }
 .navigate h1{
     color: #fff;
-    font-size: 41px;
+    font-size: 36px;
     font-weight: 700;
+    /* text-align: center; */
     padding-left: 6%;
-    margin-top: 1%;
+    margin-top: 2%;
     font-family: Papyrus, fantasy ;
 }
 .navigate-flex{
